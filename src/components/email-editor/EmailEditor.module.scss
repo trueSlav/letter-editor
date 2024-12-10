@@ -1,8 +1,16 @@
-.title {
-    font-family: Inter, sans-serif;
-    font-size: 3rem;
+.editor {
+    background-color: #fefefe;
+    border-radius: 10px;
+    margin-block: 5%;
 
-    p {
+    .textZone {
+        inline-size: calc(100% - 24px);
+        border-top-left-radius: 10px;
+        block-size: 100px;
+        padding: 12px;
+        border: none;
+        border-bottom: 1px solid black;
         color: chocolate;
     }
 }
+
